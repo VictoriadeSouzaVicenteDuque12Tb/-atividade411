@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Fundo neutro */
+    color: #333; /* Texto escuro */
+}
+
+header {
+    background-color: #FF4081; /* Rosa vibrante */
+    padding: 4rem; /* Aumentando a altura do header */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo */
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.primeira {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* Espaço entre os elementos */
+    margin-bottom: 2rem;
+}
+
+.primeira p {
+    max-width: 400px; /* Limita a largura do parágrafo */
+}
+
+.primeira img {
+    width: 15rem; /* Diminui o tamanho da imagem */
+    height: auto;
+    border: 3px solid #69F0AE; /* Verde suave */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.segunda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #AB47BC; /* Roxo intenso */
+    height: 25rem; /* Altura da div */
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.segunda img {
+    width: 8rem; /* Diminui o tamanho das imagens */
+    height: 8rem; /* Mantém a proporção */
+    border: 3px solid #FF4081; /* Borda rosa vibrante */
+}
+
+.segunda p {
+    color: #FFFFFF; /* Texto branco */
+    max-width: 200px; /* Limita a largura do parágrafo */
+}
+
+.terceira {
+    display: flex;
+    flex-direction: column; /* Imagens em coluna */
+    align-items: center;
+    gap: 1rem; /* Espaço entre as imagens */
+}
+
+.terceira img {
+    width: 10rem; /* Tamanho das imagens */
+    height: auto;
+    border: 3px solid #69F0AE; /* Borda verde suave */
+}
